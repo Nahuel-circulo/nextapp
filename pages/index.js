@@ -7,19 +7,20 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Home - Nahuel</title>
+        <title>Home - Sentidos Tea House</title>
         <meta name="description" content="Home Page" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
+        {/* <h1 className={styles.title}>
           Ir a <Link href={'/about'}  >About</Link>
-        </h1>
-
+        </h1> */}
+        
+        <img className='sentidos-image' src="/sentidos.png" alt="" />
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Estamos construyento el sitio...
+          
         </p>
 
       </main>
